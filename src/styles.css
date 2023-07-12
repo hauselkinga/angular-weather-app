@@ -33,3 +33,44 @@ body {
   border-radius: 20px;
   box-shadow: 10px 10px 10px var(--shadow-dark);
 }
+
+.upper-data {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 50%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.upper-data img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.weather-data {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: var(--shadow-dark);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.location {
+  color: var(--white);
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.temperature {
+  color: var(--white);
+  text-align: center;
+  font-size: 4em;
+  font-weight: 900;
+}
